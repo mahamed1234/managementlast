@@ -11,6 +11,7 @@ api.get('/projects', async (req, res) => {
         return res.send(data)
     } catch (error) {
         return res.send(error)
+
     }
 })
 
