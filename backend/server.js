@@ -18,7 +18,8 @@ app.use((req, res, next) => {
 
 app.use(cors({
     origin: 'http://localhost:3000',
-    optionsSuccessStatus: 200
+    optionsSuccessStatus: 200,
+
 }));
 
 app.use((req, res, next) => {
